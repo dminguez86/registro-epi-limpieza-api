@@ -70,7 +70,7 @@ app.post("/api/enviar", async (req, res) => {
     const text = `Se adjunta el registro de entrega de equipos de protección individual firmado.
 
 Empresa: CLUMTEL PREMIUM, SL
-Puesto: Personal de limpieza de habitaciones
+Puesto: Personal de limpieza
 Trabajador/a: ${trabajador} (DNI ${dni})
 Fecha: ${fecha}
 Hotel / centro: ${hotel || "-"}
